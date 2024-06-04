@@ -1,0 +1,16 @@
+﻿Strategy Design Pattern
+
+1. It is a behavioral design pattern that enables client to select algorithm at runtime
+2. It defines a family of algoithm, encapsulates each one of its own implementation, and make them interchageable
+3. This pattern allow algorithm to be modifies without affecting the clients that rely on it.
+
+
+Benifits:
+1.Enhances felxibility and reusabilit through dynamic algorithm substitution
+2.Simplifies unit testing and maintenance by isolating complex algorithms
+
+
+How to implement?
+1. Create the strategy interface
+2. Create one or more implementation
+3. Use the strategy through its interface
